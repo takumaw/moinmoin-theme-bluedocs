@@ -1,0 +1,119 @@
+/* 
+ * BlueDocs (A MoinMoin theme)
+ * (c) 2014 WATANABE Takuma <mail@thingies.me>
+ */
+
+/*
+ * Foundation
+ */
+
+@import url(common.css);
+
+
+/*
+ * Common UI elements
+ */
+
+/* Body */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Page title */
+
+h1 {
+  margin: 20px 10px;
+  font-size: 32pt;
+}
+
+/* Content */
+
+#content {
+  margin: 10px 20px 70px 20px;
+  font-size: 22pt;
+  /*font-family: "Noto Serif", "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+  color: #333;
+}
+
+/* Navigation */
+
+#navigation {
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  font-size: 12pt;
+  background: #aaa;
+  color: white;
+}
+
+#navigation > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#navigation > ul > li {
+  display: inline;
+  margin: 0 1px;
+}
+
+#navigation > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+#navigation > ul > li >  a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Footer */
+
+#footer {
+  position: fixed;
+  bottom: 25px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 30px;
+  font-size: 16pt;
+  background: #ccc;
+  color: white;
+}
+
+#footer > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#footer > ul > li {
+  display: block;
+  width: 100%;
+}
+
+#footer > ul > li#date {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  text-align: left;
+}
+
+#footer > ul > li#author {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+#footer > ul > li#counter {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  text-align: right;
+}

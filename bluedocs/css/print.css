@@ -1,0 +1,19 @@
+/* 
+ * BlueDocs (A MoinMoin theme)
+ * (c) 2014 WATANABE Takuma <mail@thingies.me>
+ */
+
+/* Header and sidebar */
+
+#header,
+#sidebar,
+#pagetrail,
+#message {
+  display: none;
+}
+
+/* Body */
+
+body {
+  margin: 1em;
+}

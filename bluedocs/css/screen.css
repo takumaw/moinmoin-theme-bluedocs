@@ -1,0 +1,63 @@
+/* 
+ * BlueDocs (A MoinMoin theme)
+ * (c) 2014 WATANABE Takuma <mail@thingies.me>
+ */
+
+/* Header */
+
+#header {
+  border-top: 5px solid #303c4f;
+}
+
+#header > #logo {
+  float: left;
+  margin: 0;
+  padding: 5px;
+  width: 160px;
+  height: 70px;
+  text-align: center;
+}
+
+#header > #search {
+  margin: 0 0 0 180px;
+  padding: 5px;
+  height: 70px;
+  display: table;
+}
+
+#header > #search > form {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+/* Sidebar */
+
+#sidebar {
+  float: left;
+  margin: 0;
+  width: 160px;
+  text-align: right;
+}
+
+/* Message */
+
+#message {
+  margin: 0 2% 0 180px;
+}
+
+/* Location */
+
+#location {
+  margin: 0 2% 0 180px;
+}
+
+/* Page */
+
+#page {
+  margin: 0 2% 0 180px;
+}
+
+/* Footer */
+#footer {
+  clear: left;
+}
